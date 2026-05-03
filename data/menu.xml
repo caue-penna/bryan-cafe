@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE menu SYSTEM "menu.dtd">
+<menu>
+    <category name="Breakfast">
+        <item id="b1"><name>Classic Eggs Benedict</name><description>Two poached free-range eggs on toasted English muffin with hollandaise sauce and your choice of bacon or spinach.</description><price currency="AUD">18.50</price><image>eggs-benedict.jpg</image></item>
+        <item id="b2"><name>Avocado Smash</name><description>Smashed avocado on sourdough toast with feta, cherry tomatoes, lemon and chilli flakes.</description><price currency="AUD">16.00</price><image>avocado-smash.jpg</image></item>
+        <item id="b3"><name>Buttermilk Pancakes</name><description>Three fluffy pancakes stacked with maple syrup, mixed berries and a scoop of vanilla ice cream.</description><price currency="AUD">17.50</price><image>pancakes.jpg</image></item>
+    </category>
+    <category name="Lunch">
+        <item id="l1"><name>Bryan's Signature Burger</name><description>House-made beef patty, aged cheddar, caramelised onion, baby cos and chipotle aioli on a brioche bun. Served with fries.</description><price currency="AUD">22.00</price><image>signature-burger.jpg</image></item>
+        <item id="l2"><name>Roasted Pumpkin Salad</name><description>Roasted pumpkin, baby spinach, quinoa, pomegranate, goat cheese and toasted pepitas with citrus dressing.</description><price currency="AUD">19.00</price><image>pumpkin-salad.jpg</image></item>
+        <item id="l3"><name>Grilled Chicken Wrap</name><description>Marinated grilled chicken, mixed leaves, tomato, avocado and garlic aioli wrapped in a soft tortilla.</description><price currency="AUD">17.00</price><image>chicken-wrap.jpg</image></item>
+    </category>
+    <category name="Coffee &amp; Drinks">
+        <item id="c1"><name>Single Origin Espresso</name><description>Daily-rotating single origin beans, expertly extracted to highlight unique tasting notes.</description><price currency="AUD">4.50</price><image>espresso.jpg</image></item>
+        <item id="c2"><name>Flat White</name><description>Double shot of our house blend with velvety steamed milk - an Australian classic.</description><price currency="AUD">5.00</price><image>flat-white.jpg</image></item>
+        <item id="c3"><name>Iced Mocha</name><description>Cold brew espresso, dark Belgian chocolate and chilled milk over ice, finished with cocoa dust.</description><price currency="AUD">6.50</price><image>iced-mocha.jpg</image></item>
+    </category>
+    <category name="Desserts">
+        <item id="d1"><name>Tiramisu</name><description>Classic Italian tiramisu with espresso-soaked ladyfingers, mascarpone cream and cocoa.</description><price currency="AUD">11.00</price><image>tiramisu.jpg</image></item>
+        <item id="d2"><name>Salted Caramel Cheesecake</name><description>Smooth baked cheesecake on a biscuit base, drizzled with house-made salted caramel.</description><price currency="AUD">12.50</price><image>cheesecake.jpg</image></item>
+    </category>
+</menu>

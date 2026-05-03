@@ -1,27 +1,14 @@
 <!--
     Bryan's Cafe - Branches Document Type Definition
-    Defines the structure for branches.xml
-    Author: Web Developer (ICTWEB441/518)
     Version: 1.0
 -->
-
-<!-- Root element: contains one or more branches -->
 <!ELEMENT branches (branch+)>
-
-<!-- Branch: one physical location -->
 <!ELEMENT branch (name, address, phone, hours, maps)>
-<!ATTLIST branch
-    id ID #REQUIRED>
-
-<!-- Branch child elements -->
+<!ATTLIST branch id ID #REQUIRED>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT address (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
-
-<!-- Operating hours -->
 <!ELEMENT hours (weekdays, weekends)>
 <!ELEMENT weekdays (#PCDATA)>
 <!ELEMENT weekends (#PCDATA)>
-
-<!-- Google Maps URL -->
 <!ELEMENT maps (#PCDATA)>
