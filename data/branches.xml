@@ -1,7 +1,43 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE branches SYSTEM "branches.dtd">
+<!--
+    Bryan's Cafe - Branch Locations
+    Source: case study document (Branches section)
+    Loaded dynamically by js/branches.js into contact.html
+-->
 <branches>
-    <branch id="branch-cbd"><name>Sydney CBD</name><address>123 Pitt Street, Sydney NSW 2000</address><phone>+61 2 9000 1234</phone><hours><weekdays>6:30 AM - 5:00 PM</weekdays><weekends>7:30 AM - 4:00 PM</weekends></hours><maps>https://www.google.com/maps/place/Pitt+Street,+Sydney+NSW</maps></branch>
-    <branch id="branch-parramatta"><name>Parramatta</name><address>45 Church Street, Parramatta NSW 2150</address><phone>+61 2 9000 5678</phone><hours><weekdays>6:30 AM - 4:30 PM</weekdays><weekends>7:30 AM - 3:30 PM</weekends></hours><maps>https://www.google.com/maps/place/Church+Street,+Parramatta+NSW</maps></branch>
-    <branch id="branch-bondi"><name>Bondi Beach</name><address>88 Campbell Parade, Bondi Beach NSW 2026</address><phone>+61 2 9000 9012</phone><hours><weekdays>6:00 AM - 6:00 PM</weekdays><weekends>6:30 AM - 7:00 PM</weekends></hours><maps>https://www.google.com/maps/place/Campbell+Parade,+Bondi+Beach+NSW</maps></branch>
+
+    <branch id="branch-surry-hills">
+        <name>Surry Hills</name>
+        <address>76 Devonshire St, Surry Hills NSW</address>
+        <phone>02 9211 1234</phone>
+        <hours>
+            <weekdays>Mon - Fri: 6:00 to 14:30</weekdays>
+            <weekends>Sat - Sun: 7:00 to 15:00</weekends>
+        </hours>
+        <maps>https://www.google.com/maps/place/76+Devonshire+St,+Surry+Hills+NSW</maps>
+    </branch>
+
+    <branch id="branch-haymarket">
+        <name>Haymarket</name>
+        <address>451 Pitt St, Haymarket Sydney, NSW</address>
+        <phone>02 9262 5678</phone>
+        <hours>
+            <weekdays>Mon - Fri: 6:00 to 16:00</weekdays>
+            <weekends>Sat - Sun: 7:00 to 15:00</weekends>
+        </hours>
+        <maps>https://www.google.com/maps/place/451+Pitt+St,+Haymarket+Sydney+NSW</maps>
+    </branch>
+
+    <branch id="branch-circular-quay">
+        <name>Circular Quay</name>
+        <address>31 Alfred Street, Circular Quay, NSW</address>
+        <phone>02 8971 9101</phone>
+        <hours>
+            <weekdays>Mon - Fri: 6:00 to 16:00</weekdays>
+            <weekends>Sat - Sun: 7:00 to 15:00</weekends>
+        </hours>
+        <maps>https://www.google.com/maps/place/31+Alfred+Street,+Circular+Quay+NSW</maps>
+    </branch>
+
 </branches>

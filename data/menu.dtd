@@ -1,15 +1,28 @@
 <!--
     Bryan's Cafe - Menu Document Type Definition
     Defines the structure for menu.xml
-    Version: 1.0
+    Author: Caue Penna - Web Developer (ICTWEB441/518)
+    Version: 2.0 - aligned with case study data
 -->
+
+<!-- Root element: contains one or more categories -->
 <!ELEMENT menu (category+)>
+
+<!-- Category: groups menu items (Meals, Coffee and hot chocolates, Other beverages) -->
 <!ELEMENT category (item+)>
-<!ATTLIST category name CDATA #REQUIRED>
-<!ELEMENT item (name, description, price, image)>
-<!ATTLIST item id ID #REQUIRED>
+<!ATTLIST category
+    name CDATA #REQUIRED>
+
+<!-- Item: an individual menu entry. Description is optional because some
+     beverages (Soda, Fresh juice, Bottled water) have no description in the case study. -->
+<!ELEMENT item (name, description?, price, image)>
+<!ATTLIST item
+    id ID #REQUIRED>
+
+<!-- Item child elements -->
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
-<!ATTLIST price currency CDATA "AUD">
+<!ATTLIST price
+    currency CDATA "AUD">
 <!ELEMENT image (#PCDATA)>
